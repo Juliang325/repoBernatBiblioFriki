@@ -1,5 +1,6 @@
 import { Injectable } from '@angular/core';
 import { ServCatalogoService } from './serv-catalogo.service';
+import { Libro } from 'src/interface/libro';
 
 @Injectable({
   providedIn: 'root'
@@ -27,21 +28,21 @@ export class ServMisPrestamosService {
     },
   ]
 
-  listaCatalogo:any;
+  listaCatalogo:Libro[];
 
   constructor(serviCatalogo: ServCatalogoService) { 
     this.listaCatalogo = serviCatalogo.getAll();
   }
 
-  public add(libro:any){
+  public add(libro:Libro){
     libro.id = this.prestamos.length + 1;
     this.prestamos.push(libro);
   }
-  public getAll(): any {
+  public getAll(): Libro []{
     return this.prestamos;
   }  
   
-  eliminarLibro(id: number):any {
+  eliminarLibro(id: number){
     var index = this.prestamos.findIndex((contacto: { id: number; }) => contacto.id === id);
   
     if (index !== -1) {
@@ -49,8 +50,8 @@ export class ServMisPrestamosService {
     }
   }
 
-  get(id: number):any{
-    return this.prestamos.find((c) => c.id === id);
+  get(id: number):Libro{
+    return this.prestamos.find((c) => c.id === id)!;
     
     }
 

@@ -1,11 +1,12 @@
 import { Injectable } from '@angular/core';
+import { Libro } from 'src/interface/libro';
 
 @Injectable({
   providedIn: 'root'
 })
 export class ServCatalogoService {
 
-  catalogo=[
+  catalogo:Libro[]=[
     {
         "id": 1,
         "isbn": "8434469219",
@@ -324,12 +325,12 @@ export class ServCatalogoService {
 ]
   constructor() { }
 
-  getAll(){
+  getAll():Libro[]{
     return this.catalogo;
   } 
 
-  get(id: number):any{
-    return this.catalogo.find((c) => c.id === id);
+  get(id: number):Libro{
+    return this.catalogo.find((c) => c.id === id)!;
     
     }
 
