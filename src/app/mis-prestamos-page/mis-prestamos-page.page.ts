@@ -3,6 +3,7 @@
 
 import { Component, OnInit } from '@angular/core';
 import { ServMisPrestamosService } from '../services/serv-mis-prestamos.service';
+import { Libro } from 'src/interface/libro';
 
 @Component({
   selector: 'app-mis-prestamos-page',
@@ -10,13 +11,20 @@ import { ServMisPrestamosService } from '../services/serv-mis-prestamos.service'
   styleUrls: ['./mis-prestamos-page.page.scss'],
 })
 export class MisPrestamosPagePage implements OnInit {
-  listaPrestamos:any;
+
+  libros: Libro[];
   constructor(private servi:ServMisPrestamosService) { 
-    this.listaPrestamos = servi.getAll();
+    this.libros = [];
   }
 
 
   ngOnInit() {
+    this.getPrestamos();
+  }
+
+  getPrestamos(){
+    this.servi.getAll()
+      .subscribe(libros => this.libros = libros);
   }
 
   
