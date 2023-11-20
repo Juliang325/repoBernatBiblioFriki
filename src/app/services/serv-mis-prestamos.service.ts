@@ -10,16 +10,31 @@ import { environment } from 'src/environments/environment';
 export class ServMisPrestamosService {
 
 
-  constructor(private http: HttpClient) { 
-   
+  private apiUrl = `${environment.apiURL}/prestamos`;
+  
+  constructor(private http: HttpClient) { }
+
+  getAll(): Observable<Libro[]> {
+    return this.http.get<Libro[]>(this.apiUrl);
   }
 
-  getAll():Observable<Libro[]>{
-
-    let url = `${environment.apiURL}/catalogo`;
-    
-    return this.http.get<Libro[]>(url);
+  get(id: number): Observable<Libro> {
+    const url = `${this.apiUrl}/${id}`;
+    return this.http.get<Libro>(url);
   }
 
+  add(libro: Libro): Observable<Libro> {
+    return this.http.post<Libro>(this.apiUrl, libro);
+  }
+
+  update(id: number, libro: Libro): Observable<Libro> {
+    const url = `${this.apiUrl}/${id}`;
+    return this.http.put<Libro>(url, libro);
+  }
+
+  eliminarLibro(id: number): Observable<void> {
+    const url = `${this.apiUrl}/${id}`;
+    return this.http.delete<void>(url);
+  }
 
 }

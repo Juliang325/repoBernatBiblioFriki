@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { ServCatalogoService } from '../services/serv-catalogo.service';
+import { Libro } from 'src/interface/libro';
 
 @Component({
   selector: 'app-catalogo-page',
@@ -8,13 +9,19 @@ import { ServCatalogoService } from '../services/serv-catalogo.service';
 })
 export class CatalogoPagePage implements OnInit {
 
-  listaLibros:any;
+  libros: Libro[];
 
-  constructor(servi:ServCatalogoService) { 
-    this.listaLibros = servi.getAll();
-  }
+  constructor(private servi:ServCatalogoService) { 
+    this.libros = [];
+   }
 
   ngOnInit() {
+    this.getCatalogo();
+  }
+
+  getCatalogo(){
+    this.servi.getAll()
+      .subscribe(libros => this.libros = libros);
   }
 
 }

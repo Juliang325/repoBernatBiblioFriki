@@ -9,13 +9,30 @@ import { environment } from 'src/environments/environment';
 })
 export class ServCatalogoService {
 
+  private apiUrl = `${environment.apiURL}/catalogo`;
   
   constructor(private http: HttpClient) { }
 
-  getAll():Observable<Libro[]>{
+  getAll(): Observable<Libro[]> {
+    return this.http.get<Libro[]>(this.apiUrl);
+  }
 
-    let url = `${environment.apiURL}/prestamos`;
-    
-    return this.http.get<Libro[]>(url);
+  get(id: number): Observable<Libro> {
+    const url = `${this.apiUrl}/${id}`;
+    return this.http.get<Libro>(url);
+  }
+
+  add(libro: Libro): Observable<Libro> {
+    return this.http.post<Libro>(this.apiUrl, libro);
+  }
+
+  update(id: number, libro: Libro): Observable<Libro> {
+    const url = `${this.apiUrl}/${id}`;
+    return this.http.put<Libro>(url, libro);
+  }
+
+  delete(id: number): Observable<void> {
+    const url = `${this.apiUrl}/${id}`;
+    return this.http.delete<void>(url);
   }
 }
