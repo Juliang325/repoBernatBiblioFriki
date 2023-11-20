@@ -1,6 +1,5 @@
-
 {
-    "catalogo":[
+    "catalogo" : [
         {
             "id": 1,
             "isbn": "8434469219",
@@ -320,23 +319,12 @@
     "prestamos":[
         {
             "id": 1,
-            "isbn": "8434469219",
-            "titulo": "El señor de los anillos y la filosofía",
-            "autores": "Gregory Bassham, Eric Bronson",
-            "editorial": "Grupo Planeta (GBS)",
-            "fecha": "2010-05-20",
-            "descripcion": "¿Nos resultaría aburrida la vida eterna en caso de que pudiéramos alcanzarla? ¿Qué virtudes son necesarias para que el poder no corrompa a quien lo tiene? ¿Se revelará la naturaleza contra la tecnología? Si un ente cae en el bosque y nadie lo oye, ¿hace ruido? Gregory Bassham y Eric Bronson dan respuesta a éstas y otras cuestiones planteadas en El Señor de los Anillos, la epopeya de J. R. R. Tolkien que, desde su publicación, ha vendido más de cincuenta millones de ejemplares y cuya riqueza y complejidad ha tejido una red cada vez más amplia de seguidores. Si la intención de Tolkien era crear «una historia que mantendría la atención del lector [...] y que a veces quizá lo excitaría o lo conmovería profundamente», consiguió también trasladar a su obra algunas de sus propias inquietudes filosóficas: la lucha del bien contra el mal, la oposición entre destino y libre albedrío, la búsqueda de la felicidad o la vida después de la muerte. Esta colección de ensayos además de ofrecernos una comprensión más fiel de las cuestiones que inspiran y nutren El Señor de los Anillos, supone una amena introducción a la filosofía, la religión y la mitología y una excelente carta de presentación a la cosmovisión de pensadores como Platón, Aristóteles o Nietzsche. Porque, como dice el mago filósofo Gandalf: \"Si has estado estos días con las orejas tapadas y la mente dormida, ¡es hora de que despiertes!"
-        },
-        {
-            "id": 2,
-            "isbn": "6070712749",
-            "titulo": "El Señor de Los Anillos 3.",
-            "autores": "John Ronald Reuel Tolkien",
-            "editorial": "Planeta Publishing",
-            "fecha": "2012-11-13",
-            "descripcion": "La última parte del viaje de Frodo y Sam Los ejércitos del Señor Oscuro van extendiendo cada vez más su maléfica sombra por la Tierra Media. Hombres, elfos y enanos unen sus fuerzas para presentar batalla a Sauron y sus huestes. Ajenos a estos preparativos, Frodo y Sam siguen adentrándose en el país de Mordor en su heroico viaje para destruir el Anillo de Poder en las Grietas del Destino."
+            "isbn": "8430979107",
+            "titulo": "De Poniente a Roma",
+            "autores": "Aurora López Güeto",
+            "editorial": "Tecnos",
+            "fecha": "2020-09-17",
+            "descripcion": "De Roma a Poniente ofrece al lector una amplia muestra de parecidos razonables entre la sociedad retratada en la exitosa serie Juego de Tronos, inspirada en las novelas de George R. R. Martin, y la vida en la Roma clásica. La premisa es, a primera vista, sorprendente: el Derecho de los Siete Reinos es Derecho romano, pero se justifica al abordarse el tratamiento en la saga de cuestiones como el status de libertad frente a la condición de esclavitud, la herencia, las relaciones de parentesco, la represión del adulterio y del incesto o el castigo a los parricidas. Y, muy en especial, el papel reservado a las mujeres, con sus avances y retrocesos. De manera sutil, fluyen entre las tramas políticas y personales de Westeros (y Essos) las normas del sistema jurídico más rico y complejo de la Antigüedad, dotado de una perfección técnica que no deja de admirar a quienes se acercan, en nuestros días, a estudiarlo. Pero, por encima de todo, esta obra es un homenaje de la autora a Juego de Tronos, la serie total. Sus fieles seguidores podrán revivir las escenas más emocionantes a través de las semblanzas de sus personajes protagonistas y de sus imprescindibles secundarios, así como disfrutar de muchos de sus agudos diálogos. Un tributo muy personal, una visión diferente y arriesgada desde la órbita académica, pero al alcance de cualquier amante de la cultura clásica y de la propia serie. No en vano, hay tantos Juegos de Tronos como espectadores."
         }
     ]
-
-    
 }
