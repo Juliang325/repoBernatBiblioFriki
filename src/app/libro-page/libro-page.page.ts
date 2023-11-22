@@ -31,13 +31,9 @@ export class LibroPagePage implements OnInit {
   }
 
   alquilarLibro() {
-    this.serviPrestamo.add(this.libro).subscribe(
-      (libroAlquilado: Libro) => {
-        console.log('Libro alquilado con éxito', libroAlquilado);
-      },
-      error => {
-        console.error('Error al alquilar el libro', error);
-      }
+    this.serviPrestamo.add(this.libro).subscribe( 
+          (libro => this.libro = libro)
+      
     );
   }
 

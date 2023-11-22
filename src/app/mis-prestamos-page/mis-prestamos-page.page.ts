@@ -1,6 +1,7 @@
 
 
 
+
 import { Component, OnInit } from '@angular/core';
 import { ServMisPrestamosService } from '../services/serv-mis-prestamos.service';
 import { Libro } from 'src/interface/libro';
@@ -25,6 +26,10 @@ export class MisPrestamosPagePage implements OnInit {
   getPrestamos(){
     this.servi.getAll()
       .subscribe(libros => this.libros = libros);
+  }
+
+  deleteLibro(){
+    this.servi.eliminarLibro(1);
   }
 
   
