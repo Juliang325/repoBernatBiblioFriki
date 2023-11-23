@@ -17,7 +17,7 @@ export class BorrarLibroPage implements OnInit {
     private activateRoute: ActivatedRoute,
     private serviPrestamo: ServMisPrestamosService
     ) { 
-      this.libro = {} as Libro;
+      this.libro = {} as Libro;0
     }
 
   ngOnInit() {
@@ -29,7 +29,12 @@ export class BorrarLibroPage implements OnInit {
   }
 
   borrarLibro(){
-    this.serviPrestamo.eliminarLibro(this.id);
+    this.serviPrestamo.eliminarLibro(this.id).subscribe(
+      r=>{
+        console.log("he borrado el libro");
+        
+      }
+    );
   }
 
 }

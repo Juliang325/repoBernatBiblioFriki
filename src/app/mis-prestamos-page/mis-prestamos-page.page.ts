@@ -23,6 +23,10 @@ export class MisPrestamosPagePage implements OnInit {
     this.getPrestamos();
   }
 
+  ionViewWillEnter(){
+    this.getPrestamos();
+  }
+
   getPrestamos(){
     this.servi.getAll()
       .subscribe(libros => this.libros = libros);
