@@ -318,49 +318,40 @@
   ],
   "prestamos": [
     {
-      "id": 7,
-      "isbn": "8445073729",
-      "titulo": "El Señor de Los Anillos, I",
-      "autores": "J. R. R. Tolkien",
+      "id": 6,
+      "isbn": "8445073605",
+      "titulo": "El Señor de Los Anillos",
+      "autores": "Brian Sibley",
       "editorial": "No disponible",
-      "fecha": "2002",
-      "descripcion": "En la adormecida e idílica Comarca, un joven hobbit recibe un encargo: custodiar el Anillo Único y emprender el viaje para su destrucción en las Grietas del Destino. Acompañado por magos, hombres, elfos y enanos, atravesará la Tierra Media y se internará en las sombras de Mordor, perseguido siempre por las huestes de Sauron, el Señor Oscuro, dispuesto a recuperar su creación para establecer el dominio definitivo del Mal."
+      "fecha": "2001-09-02",
+      "descripcion": "LA GUIA OFICIAL DE LA QUE SERA LA MCS IMPORTANTE TRILOGIA CINEMATOGRAFICA DE LA DECADA.El Senor de los anillos. Guia ilustrada de la pelicula es una guia profusamente ilustrada con escenas entre bastidores, fotografias en color del reparto, escenarios, monstruos y vestuario, y un panorama fascinante y entretenido de la concepcion, el diseno y la filmacion de la trilogia durante los ultimos cinco anos. Concebido como una celebracion de las peliculas, incluye fotografias a doble pagina, imagenes exclusivas en suntuoso detalle, e interesantes comentarios del director, Peter Jackson.\"El Senor de los Anillos es uno de los libros mas importantes y singulares jamas escrito. Todo lo que ofrezco es una interpretacion, pero esperemos que llevara al cine de fantasia a un nuevo nivel de aventura y credibilidad.\"Peter Jackson."
     },
     {
-      "id": 31,
-      "isbn": "1644736136",
-      "titulo": "Juego de tronos / A Game of Thrones",
-      "autores": "George R. R. Martin",
-      "editorial": "National Geographic Books",
-      "fecha": "2022-06-21",
-      "descripcion": "Con Juego de Tronos George R. R. Martin ha creado una obra maestra, ofreciendo todos los mejores aspectos del género. Misterio, intriga, romance y aventura llenan las páginas de este primer volumen de la monumental saga Canción de hielo y fuego, transportando al lector a un mundo como ningún otro. En el legendario mundo de los Siete Reinos, donde el verano puede durar décadas y el invierno toda una vida, y donde rastros de una magia primitiva surgen en los rincones más sombríos, la tierra del norte, Invernalia, está protegida por un colosal muro de hielo que detiene a fuerzas oscuras y sobrenaturales. En este majestuoso escenario, lord Stark y su familia se encuentran en el centro de un conflicto que desatará todas las pasiones: la traición y la lealtad, la compasión y la sed de venganza, el amor y el poder, la lujuria y el incesto, todo ello para ganar la más mortal de las batallas: el juego de tronos. Ya considerado un clásico moderno, la impresionante serie de Martin perdurará como uno de los grandes logros de la imaginación y de la literatura fantástica. ENGLISH DESCRIPTION THE BOOK BEHIND THE FIRST SEASON OF THE ACCLAIMED HBO SERIES GAME OF THRONES #1 NEW YORK TIMES BESTSELLER A SONG OF ICE AND FIRE SERIES: BOOK 1 Winter is coming. Such is the stern motto of House Stark, the northernmost of the fiefdoms that owe allegiance to King Robert Baratheon in far-off King’s Landing. There Eddard Stark of Winterfell rules in Robert’s name. There his family dwells in peace and comfort: his proud wife, Catelyn; his sons Robb, Brandon, and Rickon; his daughters Sansa and Arya; and his bastard son, Jon Snow. Far to the north, behind the towering Wall, lie savage Wildings and worse—unnatural things relegated to myth during the centuries-long summer, but proving all too real and all too deadly in the turning of the season. Yet a more immediate threat lurks to the south, where Jon Arryn, the Hand of the King, has died under mysterious circumstances. Now Robert is riding north to Winterfell, bringing his queen, the lovely but cold Cersei, his son, the cruel, vainglorious Prince Joffrey, and the queen’s brothers Jaime and Tyrion of the powerful and wealthy House Lannister—the first a swordsman without equal, the second a dwarf whose stunted stature belies a brilliant mind. All are heading for Winterfell and a fateful encounter that will change the course of kingdoms. Meanwhile, across the Narrow Sea, Prince Viserys, heir of the fallen House Targaryen, which once ruled all of Westeros, schemes to reclaim the throne with an army of barbarian Dothraki—whose loyalty he will purchase in the only coin left to him: his beautiful yet innocent sister, Daenerys."
+      "id": 9,
+      "isbn": "1506715559",
+      "titulo": "The Art of Star Wars Jedi: Fallen Order",
+      "autores": "Lucasfilm Ltd., Respawn Entertainment",
+      "editorial": "Dark Horse Comics",
+      "fecha": "2019-11-19",
+      "descripcion": "A full-color oversized hardcover volume that captures the development of the newest canonical and interactive addition to the Star Wars universe. A galaxy-spanning adventure awaits in Star Wars Jedi: Fallen Order, the new action-adventure videogame from Respawn Entertainment. Explore the artistic creation of Cal Kestis's quest to rebuild the Jedi Order as he learns the ways of the Force, travels to exotic worlds, and battles tyrannical foes. With detailed concept art of all-new characters, exciting weapons and equipment, and locales both familiar and new, this tome offers a behind-the-scenes look at the production of a hit game--all accompanied by intimate artists' commentary that reveals how this incredible universe is brought together. Dark Horse Books, Lucasfilm Limited, and Respawn Entertainment are honored to present The Art of Star Wars Jedi: Fallen Order, guiding readers on Cal's odyssey. This uniquely designed work is sure to thrill dedicated Jedi acolytes and gamers alike."
     },
     {
-      "id": 15,
-      "isbn": "197587658X",
-      "titulo": "Starwars",
-      "autores": "Jc Coloring",
-      "editorial": "Createspace Independent Publishing Platform",
-      "fecha": "2017-08-29",
-      "descripcion": "40 Pages of Stunning pattern to Color! -This coloring book has over 40 starwars patterns and provides hours of stress relief through creative expression. -Simply sit back, relax, and choose the design that connects with you -Designs range in complexity and detail from beginner."
+      "id": 2,
+      "isbn": "6070712749",
+      "titulo": "El Señor de Los Anillos 3.",
+      "autores": "John Ronald Reuel Tolkien",
+      "editorial": "Planeta Publishing",
+      "fecha": "2012-11-13",
+      "descripcion": "La última parte del viaje de Frodo y Sam Los ejércitos del Señor Oscuro van extendiendo cada vez más su maléfica sombra por la Tierra Media. Hombres, elfos y enanos unen sus fuerzas para presentar batalla a Sauron y sus huestes. Ajenos a estos preparativos, Frodo y Sam siguen adentrándose en el país de Mordor en su heroico viaje para destruir el Anillo de Poder en las Grietas del Destino."
     },
     {
-      "id": 1,
-      "isbn": "8434469219",
-      "titulo": "El señor de los anillos y la filosofía",
-      "autores": "Gregory Bassham, Eric Bronson",
-      "editorial": "Grupo Planeta (GBS)",
-      "fecha": "2010-05-20",
-      "descripcion": "¿Nos resultaría aburrida la vida eterna en caso de que pudiéramos alcanzarla? ¿Qué virtudes son necesarias para que el poder no corrompa a quien lo tiene? ¿Se revelará la naturaleza contra la tecnología? Si un ente cae en el bosque y nadie lo oye, ¿hace ruido? Gregory Bassham y Eric Bronson dan respuesta a éstas y otras cuestiones planteadas en El Señor de los Anillos, la epopeya de J. R. R. Tolkien que, desde su publicación, ha vendido más de cincuenta millones de ejemplares y cuya riqueza y complejidad ha tejido una red cada vez más amplia de seguidores. Si la intención de Tolkien era crear «una historia que mantendría la atención del lector [...] y que a veces quizá lo excitaría o lo conmovería profundamente», consiguió también trasladar a su obra algunas de sus propias inquietudes filosóficas: la lucha del bien contra el mal, la oposición entre destino y libre albedrío, la búsqueda de la felicidad o la vida después de la muerte. Esta colección de ensayos además de ofrecernos una comprensión más fiel de las cuestiones que inspiran y nutren El Señor de los Anillos, supone una amena introducción a la filosofía, la religión y la mitología y una excelente carta de presentación a la cosmovisión de pensadores como Platón, Aristóteles o Nietzsche. Porque, como dice el mago filósofo Gandalf: \"Si has estado estos días con las orejas tapadas y la mente dormida, ¡es hora de que despiertes!"
-    },
-    {
-      "id": 12,
-      "isbn": "0345493346",
-      "titulo": "Jedi vs. Sith: Star Wars: The Essential Guide to the Force",
-      "autores": "Ryder Windham",
-      "editorial": "National Geographic Books",
-      "fecha": "2007-11-27",
-      "descripcion": "THE ULTIMATE GUIDE TO THE ABSOLUTE POWER AT THE HEART OF THE STAR WARS GALAXY The Force, in the immortal words of Obi-Wan Kenobi, “surrounds us, it penetrates us, it binds the galaxy together.” The fortunate few who are able to tap into this extraordinary power have studied and cultivated the full spectrum of its potential–either embracing its virtuous qualities or succumbing to its evil temptations. The Jedi seek to bring peace and enlightenment to the galaxy, while the Sith hunger only for conquest and control. This comprehensive one-of-a-kind overview chronicles the known history of the Force and its wielders down through the ages, from the founding tenets of Jedi and Sith teachings to the landmark events and legendary figures who have shaped the struggle between the light and dark sides. In first-hand accounts by Obi-Wan Kenobi, Yoda, Luke Skywalker, Leia Organa Solo, Darth Bane, Darth Vader, Count Dooku, Emperor Palpatine, and a host of other Jedi Masters, Sith Lords, scholars, and sages, Star Wars: Jedi vs. Sith: The Essential Guide to the Force spans the breadth of available knowledge, including • the first recorded discovery of the Force • significant battles affected by the Force throughout galactic history • the purpose, construction, and importance of Holocrons • the evolution of the Jedi and Sith orders • Force-sensitive abilities–including battle meditation, telekinesis, and “mind tricks” • noteworthy Jedi and Sith lightsabers, and the seven forms of lightsaber combat • a vivid portrait of the Chosen One, Anakin Skywalker PLUS–More than one hundred brand new full-color illustrations! No Star Wars library is complete without this definitive guide to understanding the Force. Remember: the Force will be with you . . . always!"
+      "id": 5,
+      "isbn": "8445077511",
+      "titulo": "El Señor de los Anillos III. El Retorno del Rey",
+      "autores": "J. R. R. Tolkien",
+      "editorial": "Planeta Publishing",
+      "fecha": "2011-04-05",
+      "descripcion": "Los ejércitos del Señor Oscuro van extendiendo cada vez más su maléfica sombra por la Tierra Media. Hombres, elfos y enanos unen sus fuerzas para presentar batalla a Sauron y sus huestes. Ajenos a estos preparativos, Frodo y Sam siguen adentrándose en el país de Mordor en su heroico viaje para destruir el Anillo de Poder en las Grietas del Destino."
     }
   ]
 }

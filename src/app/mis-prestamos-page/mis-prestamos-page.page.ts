@@ -5,6 +5,7 @@
 import { Component, OnInit } from '@angular/core';
 import { ServMisPrestamosService } from '../services/serv-mis-prestamos.service';
 import { Libro } from 'src/interface/libro';
+import { LoadingController } from '@ionic/angular';
 
 @Component({
   selector: 'app-mis-prestamos-page',
@@ -14,13 +15,13 @@ import { Libro } from 'src/interface/libro';
 export class MisPrestamosPagePage implements OnInit {
 
   libros: Libro[];
-  constructor(private servi:ServMisPrestamosService) { 
+  constructor(private servi:ServMisPrestamosService, private loadingCtrl:LoadingController) { 
     this.libros = [];
   }
 
 
   ngOnInit() {
-    this.getPrestamos();
+   // this.getPrestamos();
   }
 
   ionViewWillEnter(){
@@ -28,12 +29,25 @@ export class MisPrestamosPagePage implements OnInit {
   }
 
   getPrestamos(){
+    this.showLoading();
     this.servi.getAll()
-      .subscribe(libros => this.libros = libros);
+      .subscribe(libros => {
+        this.libros = libros;
+        this.loadingCtrl.dismiss();
+      });
   }
 
   deleteLibro(){
     this.servi.eliminarLibro(1);
+  }
+
+  async showLoading() {
+    const loading = await this.loadingCtrl.create({
+      message: 'Waiting...',
+      duration: 30000,
+    });
+
+    loading.present();
   }
 
   
